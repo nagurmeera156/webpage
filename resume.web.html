@@ -1,0 +1,136 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Page</title>
+    <style>
+        header {
+            background-color: #721313;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 { color: blue; }
+        button {
+            background-color: green;
+            color: black;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        body {
+            background: #405f1d;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+        p { color: #ffffff; }
+        h2, h3 { color: hotpink; }
+        h4 { color: cadetblue; }
+        ol {
+            background-color: yellow;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        li { color: black; }
+        .purple-text { color: blueviolet; }
+        textarea {
+            background-color: navajowhite;
+            width: 100%;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #721313;
+            padding: 10px;
+            text-align: center;
+        }
+        .green-text { color: seagreen; }
+        /* LinkedIn button */
+        .linkedin-btn {
+            display: inline-block;
+            background-color: #0077b5;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .linkedin-btn:hover {
+            background-color: #005582;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Resume</h1>
+    <a href="#about"><button>About</button></a>
+    <a href="#technical-skills"><button>Skills</button></a>
+    <a href="#project"><button>Projects</button></a>
+</header>
+
+<div id="about">
+
+    <h3>K. NAGUR MEERA</h3>
+    <p>Mobile: 9177040081</p>
+    <p>Email: shaiknagurmeera156@gmail.com</p>
+
+    <!-- LinkedIn link -->
+    <a href="https://www.linkedin.com/in/shaik-nagurmeera-a13307317"
+       class="linkedin-btn" target="_blank">
+       Connect on LinkedIn
+    </a>
+
+    <h2>Career Objective</h2>
+    <p>Motivated and enthusiastic computer science graduate seeking a challenging role in a forward-thinking organization where I can apply my technical skills in programming and data analysis.</p>
+    <p>I aim to contribute to impactful projects, work collaboratively with dynamic teams, and continuously grow as a technology professional.</p>
+
+    <h2>Education</h2>
+    <p>B.Tech (CSE): Malineni Perumallu Educational Society Group of Institutions, Guntur — 2025 / 7.5 CGPA</p>
+    <p>Intermediate (MPC): Sri Chaitanya Junior College, 2020 / 722/1000</p>
+    <p>SSC: L.M. High School, 2018 / 8.8 CGPA</p>
+</div>
+
+<div id="technical-skills">
+    <h2>Technical Skills</h2>
+    <ol>
+        <li>Programming Languages: C, C++, Python, HTML, CSS, JavaScript</li>
+        <li>Database & Tools: SQL, MS Excel</li>
+        <li>Software & Platforms: VS Code, Jupyter Notebook, Google Colab</li>
+        <li>Additional Knowledge: Basics of Machine Learning, Data Handling, Analytical Thinking</li>
+        <li>Soft Skills: Teamwork, Communication, Problem Solving</li>
+        <li>Languages Known: English, Telugu, Hindi</li>
+    </ol>
+</div>
+
+<div id="project">
+    <h3>Project</h3>
+    <h4>Project Title:</h4>
+    <h5>Machine Learning Based Patient Classification in Emergency Department</h5>
+    <p>Developed a machine learning system to classify patients in emergency rooms based on vital sign data such as:</p>
+    <ul>
+        <li>Blood Pressure</li>
+        <li>Respiratory Rate</li>
+        <li>Temperature</li>
+        <li>Oxygen Saturation (SPO2)</li>
+    </ul>
+    <p class="green-text">• Result = 1 → Patient needs emergency care</p>
+    <p class="green-text">• Result = 0 → Patient does not need emergency care</p>
+
+    <h5>Impact:</h5>
+    <p>The solution helps prioritize patients in real time and improves resource allocation and outcomes.</p>
+
+    <h5>Technologies Used:</h5>
+    <p>Python, Pandas, Scikit-learn, Logistic Regression</p>
+</div>
+
+<textarea placeholder="Write your feedback"></textarea>
+
+<footer>
+    <p class="purple-text">Thank you for visiting my resume page!</p>
+</footer>
+
+</body>
+</html>
